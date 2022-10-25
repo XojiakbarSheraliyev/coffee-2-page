@@ -1,0 +1,216 @@
+@font-face {
+   font-family: 'Barlow';
+   src: url('../fonts/Barlow-Bold.woff2') format('woff2'),
+       url('../fonts/Barlow-Bold.woff') format('woff'),
+       url('../fonts/Barlow-Bold.ttf') format('truetype');
+   font-weight: bold;
+   font-style: normal;
+   font-display: swap;
+ }
+
+ @font-face {
+   font-family: 'Barlow';
+   src: url('../fonts/Barlow-Regular.woff2') format('woff2'),
+       url('../fonts/Barlow-Regular.woff') format('woff'),
+       url('../fonts/Barlow-Regular.ttf') format('truetype');
+   font-weight: normal;
+   font-style: normal;
+   font-display: swap;
+ }
+
+ @font-face {
+   font-family: 'Fraunces 9pt S000';
+   src: url('../fonts/Fraunces9ptS000-Black.woff2') format('woff2'),
+       url('../fonts/Fraunces9ptS000-Black.woff') format('woff'),
+       url('../fonts/Fraunces9ptS000-Black.ttf') format('truetype');
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+ }
+
+ @font-face {
+   font-family: 'Barlow';
+   src: url('../fonts/Barlow-SemiBold.woff2') format('woff2'),
+       url('../fonts/Barlow-SemiBold.woff') format('woff'),
+       url('../fonts/Barlow-SemiBold.ttf') format('truetype');
+   font-weight: 600;
+   font-style: normal;
+   font-display: swap;
+ }
+
+ @font-face {
+   font-family: 'Fraunces';
+   src: url('../fonts/Fraunces-9ptBlack.woff2') format('woff2'),
+       url('../fonts/Fraunces-9ptBlack.woff') format('woff'),
+       url('../fonts/Fraunces-9ptBlack.ttf') format('truetype');
+   font-weight: 900;
+   font-style: normal;
+   font-display: swap;
+ }
+
+*{
+   box-sizing: border-box;
+}
+
+img{
+   display: inline-block;
+   border-radius: 10px;
+}
+
+.container{
+   width: 1460px;
+   padding: 0 20px;
+   margin: 0 auto;
+}
+
+.header__container{
+   display: flex;
+   justify-content: space-between;
+}
+
+.services{
+   display: flex;
+   gap: 33px;
+   list-style: none;
+}
+
+.services__item--link{
+   text-decoration: none;
+   font-weight: 700;
+   font-size: 12px;
+   line-height: 15px;
+   letter-spacing: 0.923077px;
+   text-transform: uppercase; 
+   color: #83888F;
+
+}
+
+.main{
+   margin-bottom: 168px;
+}
+
+.main__container {
+   padding: 137px 0 0 85px;
+   border-radius: 15px;
+   background-repeat: no-repeat;
+   min-height: 450px;
+   background-size: cover;
+   background-image: url(../img/main__bg.png);
+}
+
+.main__title{
+   font-style: normal;
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;
+   color: #FEFCF7;
+   margin-bottom: 24px;
+}
+
+.main__desc{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   width: 445px;
+   color: #FEFCF7;
+}
+
+.hero__container{
+   display: flex;
+   margin-bottom: 334px;
+}
+
+.hero__text{
+   margin-left: 125px;
+}
+
+.hero__title{
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px;  
+   color: #333D4B;
+}
+
+.hero__desc{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;  
+   color: #333D4B; 
+   mix-blend-mode: normal;
+   opacity: 0.8;
+   width: 540px;
+   height: 260px;
+}
+
+/*  section  */
+.section__container{
+    
+   min-height: 474px;
+    background-color: #333D4B; 
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 150px;
+} 
+
+.section__text {
+   padding: 88px 0 0 85px;
+}
+
+.section__img {
+   margin-top: -85px;
+}
+
+.section__img img {
+   width: 445px;
+   height: 474px;
+}
+ 
+.section__title{
+   font-weight: 900;
+   font-size: 40px;
+   line-height: 48px; 
+   color: #FEFCF7;
+}
+
+.section__desc{
+   font-weight: 400;
+   font-size: 16px;
+   line-height: 26px;
+   color: #FEFCF7;
+   mix-blend-mode: normal;
+   opacity: 0.8;
+   width: 540px;
+}
+
+/* .card{
+
+} */
+
+.our{
+   display: flex;
+   gap: 350px;
+}
+
+.card__desc{
+   width: 80px;
+}
+
+.footer__container{
+   background-color: #333D4B;
+   display: flex;
+   gap: 40px;
+   align-items: center;
+   justify-content: space-between;
+}
+
+.footer__services{
+   display: flex;
+   gap: 30px;
+   list-style: none;
+}
+
+.footer__item__link{
+   text-decoration: none;
+   color: #FEFCF7;
+}
